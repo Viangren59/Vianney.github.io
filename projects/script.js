@@ -41,7 +41,7 @@ function getProjects() {
 
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".work .box-container");
+    let projectsContainer = document.querySelector(".portfolio .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
@@ -74,7 +74,7 @@ function showProjects(projects) {
     // /* ===== SCROLL REVEAL ANIMATION ===== */
     // const srtop = ScrollReveal({
     //     origin: 'bottom',
-    //     distance: '80px',
+    //     distance: '80px',s
     //     duration: 1000,
     //     reset: true
     // });
