@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Vianney GRENEZ";
+            document.title = "Projects | Portfolio Jigar Sable";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -41,7 +41,7 @@ function getProjects() {
 
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector(".portfolio .box-container");
+    let projectsContainer = document.querySelector(".work .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
@@ -74,7 +74,7 @@ function showProjects(projects) {
     // /* ===== SCROLL REVEAL ANIMATION ===== */
     // const srtop = ScrollReveal({
     //     origin: 'bottom',
-    //     distance: '80px',s
+    //     distance: '80px',
     //     duration: 1000,
     //     reset: true
     // });
@@ -106,15 +106,15 @@ getProjects().then(data => {
 // fetch projects end
 
 // Start of Tawk.to Live Chat
-// var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-// (function () {
-//     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-//     s1.async = true;
-//     s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-//     s1.charset = 'UTF-8';
-//     s1.setAttribute('crossorigin', '*');
-//     s0.parentNode.insertBefore(s1, s0);
-// })();
+var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+})();
 // End of Tawk.to Live Chat
 
 // disable developer mode
