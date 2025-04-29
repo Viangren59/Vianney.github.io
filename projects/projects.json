@@ -1,6 +1,6 @@
 [
   {
-    "name": "NotyStack Android",
+    "name": "Tosso",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
     "image": "notystackandroid",
     "category": "android",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "name": "SPPU Engg Prep",
+    "name": "THOR project",
     "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
     "image": "sppuprepandroid",
     "category": "android",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "name": "NewsBox Android",
+    "name": "Disconnected Axle for electric car",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
     "image": "newsboxandroid",
     "category": "android",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "name": "Weatherly Android",
+    "name": "Rogowski coil",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
     "image": "weatherlyandroid",
     "category": "android",
