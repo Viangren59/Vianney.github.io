@@ -1,6 +1,6 @@
 [
   {
-    "name": "Tosso",
+    "name": "IEC connector",
     "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
     "image": "notystackandroid",
     "category": "android",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "name": "Instagram MERN",
+    "name": "tosso",
     "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
     "image": "instagrammern",
     "category": "mern",
