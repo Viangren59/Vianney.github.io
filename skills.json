@@ -1,42 +1,42 @@
 [
     {
-        "name": "SolidWorks",
+        "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
-        "name": "Catia V5",
+        "name": "ExpressJS",
         "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
     },
     {
-        "name": "Fusion 360",
+        "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
     {
-        "name": "Siemens NX",
+        "name": "Redux",
         "icon": "https://img.icons8.com/color/48/000000/redux.png"
     },
     {
-        "name": "Arduino",
+        "name": "Firebase",
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
-        "name": "Python",
+        "name": "Android",
         "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
     },
     {
-        "name": "MS Project",
+        "name": "MaterialUI",
         "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
     {
-        "name": "KiCAD",
+        "name": "ChakraUI",
         "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
     },
     {
-        "name": "Matlab",
+        "name": "TailwindCSS",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
     },
     {
-        "name": "Visual Studio Code",
+        "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
     },
     {
@@ -76,11 +76,11 @@
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     },
     {
-        "name": "Cura",
+        "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
     {
-        "name": "Prusa slicer",
+        "name": "MySQL",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     {
