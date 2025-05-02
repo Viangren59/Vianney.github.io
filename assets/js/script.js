@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Vianney Grenez";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["Mechanical Engineering","Prototyping","Patent writing","Electrical design","Project management","Challenge", "Team work", "Product development","Physics", "Business creation","Product design"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -218,10 +218,6 @@ srtop.reveal('.home .content .btn', { delay: 200 });
 
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
 srtop.reveal('.home .dev', { interval: 600 });
 
 /* SCROLL ABOUT */
