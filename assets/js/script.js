@@ -204,12 +204,12 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
-const srtop = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 1000,
-    reset: true
-});
+// const srtop = ScrollReveal({
+//     origin: 'top',
+//     distance: '80px',
+//     duration: 1000,
+//     reset: true
+// });
 
 /* SCROLL HOME */
 srtop.reveal('.home .content h3', { delay: 200 });
