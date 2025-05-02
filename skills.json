@@ -13,11 +13,11 @@
     },
     {
         "name": "Siemens NX",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
+        "icon": "./assets/images/skills/nx.jpg"
     },
     {
         "name": "Arduino",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+        "icon": "./assets/images/skills/arduino.jpg"
     },
     {
         "name": "KiCAD",
@@ -25,15 +25,15 @@
     },
     {
         "name": "Matlab",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+        "icon": "./assets/images/skills/matlab.jpg"
     },
     {
         "name": "Visual Studio Code",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "icon": "./assets/images/skills/VSC.jpg"
     },
     {
         "name": "Raspberry Pi",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+        "icon": "./assets/images/skills/Rasp.jpg"
     },
     {
         "name": "V carve",
@@ -45,7 +45,7 @@
     },
     {
         "name": "ANSYS",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+        "icon": "./assets/images/skills/Ansys.jpg"
     },
     {
         "name": "Python",
