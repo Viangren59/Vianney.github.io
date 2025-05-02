@@ -1,7 +1,7 @@
 [
     {
         "name": "SolidWorks",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        "icon": "./assets/images/skills/icons8-solidworks-48.png"
     },
     {
         "name": "Catia V5",
