@@ -20,14 +20,6 @@
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-    {
-        "name": "MS Project",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
-    },
-    {
         "name": "KiCAD",
         "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
     },
@@ -73,6 +65,10 @@
     },
     {
         "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "MS Project",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     } 
 ]
