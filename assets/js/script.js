@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Mechanical Engineering","Prototyping","Patent writing","Electrical design","Project management","Challenge", "Team work", "Product development","Physics", "Business creation","Product design"],
+    strings: ["Mechanical Engineering","Prototyping","Patent"Electrical design","Project management","Challenge", "Team work", "Product development","Physics", "Business creation","Product design"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -104,28 +104,28 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
-    let projectsContainer = document.querySelector("#work .box-container");
-    let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
-        projectHTML += `
-        <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>`
-    });
-    projectsContainer.innerHTML = projectHTML;
+// function showProjects(projects) {
+//     let projectsContainer = document.querySelector("#work .box-container");
+//     let projectHTML = "";
+//     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+//         projectHTML += `
+//         <div class="box tilt">
+//       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+//       <div class="content">
+//         <div class="tag">
+//         <h3>${project.name}</h3>
+//         </div>
+//         <div class="desc">
+//           <p>${project.desc}</p>
+//           <div class="btns">
+//             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+//             <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+//           </div>
+//         </div>
+//       </div>
+//     </div>`
+//     });
+//     projectsContainer.innerHTML = projectHTML;
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -150,9 +150,9 @@ fetchData().then(data => {
     showSkills(data);
 });
 
-fetchData("projects").then(data => {
-    showProjects(data);
-});
+// fetchData("projects").then(data => {
+//     showProjects(data);
+// });
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
