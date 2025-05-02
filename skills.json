@@ -5,11 +5,11 @@
     },
     {
         "name": "Catia V5",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+        "icon": "./assets/images/skills/icons8-catia-48.png"
     },
     {
         "name": "Fusion 360",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+        "icon": "./assets/images/skills/fusion.jpg"
     },
     {
         "name": "Siemens NX",
