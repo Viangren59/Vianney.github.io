@@ -1,86 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project 1 - Portfolio</title>
-  <link rel="stylesheet" href="../../style.css" />
-  <style>
-    body {
-      background-color: #e8e7ef;
-      color: rgb(53, 36, 36);
-      font-family: 'Poppins', sans-serif;
-      padding: 2rem;
-    }
-    .project-container {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .intro {
-      margin-bottom: 2rem;
-    }
-    .section {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 2rem;
-    }
-    .section.image-left {
-      flex-direction: row-reverse;
-    }
-    .section img {
-      width: 45%;
-      max-width: 400px;
-      margin: 1rem;
-      border-radius: 10px;
-    }
-    .section .text {
-      flex: 1;
-      min-width: 250px;
-      margin: 1rem;
-    }
-    a {
-      color: yellow;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vianney grenez, portfolio, mechanical engineer, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Vianney's Portfolio. Mechanical Engineer and Innovative maker" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Vianney Grenez</title>
 </head>
-<body>
-  <div class="project-container">
-    <h1>The Water Immersion Cooling Project</h1>
-    <div class="intro">
-      <p>This ongoing experiment aims to improve data center cooling efficiency through water immersion technology. It is a personal endeavor led in partnership with my company HARTING and UC Berkeley.</p>
-    </div>
+<body oncontextmenu="return false">
 
-    <div class="section">
-      <div class="text">
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"> The <span>TOSSO</span> - Green energy for EVs project </h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./images/fullsetup.jpg.JPG" alt="">
+    </div>
+    <div class="content">
+        <!-- <h3>I'm Vianney</h3>
+        <span class="tag">Mechanical engineer, solution finder and innovative maker.</span> -->
+        
+        <p>This ongoing experiment aims to improve data center cooling efficiency through water immersion technology. It is a personal endeavor led in partnership with my company HARTING and UC Berkeley.</p>
         <p>Data centers are responsible for about 2% of the world's energy consumption, with cooling accounting for an average of 40% of that energy. As a passionate engineer, I dream of creating better solutions for the technology that will support our future society and economy.</p>
-      </div>
-      <img src="./images/fullsetup.jpg.JPG" alt="Cooling project setup" />
-    </div>
-
-    <div class="section image-left">
-      <div class="text">
         <p>I believe immersion is an efficient way to cool CPUs and GPUs. Since 2024, I have been actively exploring water immersion's performance, scalability, and safety challenges. The goal is to pair it with water's incredible thermal properties—similar to direct-to-chip cooling—while avoiding electrical shorts using a special coating.</p>
-      </div>
-      <img src="./images/box elec.JPG" alt="Test bench close-up" />
-    </div>
-
-    <div class="section">
-      <div class="text">
         <p>To support this effort, I assembled a capstone team at UC Berkeley to help build a test bench comparing water immersion to dielectric immersion. The setup features two cooling loops connected by a heat exchanger to evaluate how quickly we can extract heat from heated PCBs and the energy efficiency of the process.</p>
-      </div>
-      <img src="./images/water.JPG" alt="Experimental test bench" />
-    </div>
-
-    <div class="section image-left">
-      <div class="text">
         <p>We now have a fully functional test bench and are gathering our first data sets. If you share an interest in improving data center cooling or would like to collaborate, feel free to reach out. I always love meeting like-minded people who dream of building a better world together!</p>
-      </div>
-      <img src="./images/gui.JPG" alt="PCB under test" />
-    </div>
 
-    <p><a href="../../index.html">← Back to main site</a></p>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./images/water.JPG" alt="">
   </div>
+    </div>
+    <p><a href="../../index.html" style="color: rgb(34, 34, 26);">← Back to main site</a></p>
+</section>
+<!-- about section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>

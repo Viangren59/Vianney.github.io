@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 1 - Portfolio</title>
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    body {
+      background-color: #e8e7ef;
+      color: rgb(53, 36, 36);
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem;
+    }
+    .project-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .intro {
+      margin-bottom: 2rem;
+    }
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+    .section.image-left {
+      flex-direction: row-reverse;
+    }
+    .section img {
+      width: 45%;
+      max-width: 400px;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+    .section .text {
+      flex: 1;
+      min-width: 250px;
+      margin: 1rem;
+    }
+    a {
+      color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <h1>The Water Immersion Cooling Project</h1>
+    <div class="intro">
+      <p>This ongoing experiment aims to improve data center cooling efficiency through water immersion technology. It is a personal endeavor led in partnership with my company HARTING and UC Berkeley.</p>
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <p>Data centers are responsible for about 2% of the world's energy consumption, with cooling accounting for an average of 40% of that energy. As a passionate engineer, I dream of creating better solutions for the technology that will support our future society and economy.</p>
+      </div>
+      <img src="./images/fullsetup.jpg.JPG" alt="Cooling project setup" />
+    </div>
+
+    <div class="section image-left">
+      <div class="text">
+        <p>I believe immersion is an efficient way to cool CPUs and GPUs. Since 2024, I have been actively exploring water immersion's performance, scalability, and safety challenges. The goal is to pair it with water's incredible thermal properties—similar to direct-to-chip cooling—while avoiding electrical shorts using a special coating.</p>
+      </div>
+      <img src="./images/box elec.JPG" alt="Test bench close-up" />
+    </div>
+
+    <div class="section">
+      <div class="text">
+        <p>To support this effort, I assembled a capstone team at UC Berkeley to help build a test bench comparing water immersion to dielectric immersion. The setup features two cooling loops connected by a heat exchanger to evaluate how quickly we can extract heat from heated PCBs and the energy efficiency of the process.</p>
+      </div>
+      <img src="./images/water.JPG" alt="Experimental test bench" />
+    </div>
+
+    <div class="section image-left">
+      <div class="text">
+        <p>We now have a fully functional test bench and are gathering our first data sets. If you share an interest in improving data center cooling or would like to collaborate, feel free to reach out. I always love meeting like-minded people who dream of building a better world together!</p>
+      </div>
+      <img src="./images/gui.JPG" alt="PCB under test" />
+    </div>
+
+    <p><a href="../../index.html">← Back to main site</a></p>
+  </div>
+</body>
+</html>
