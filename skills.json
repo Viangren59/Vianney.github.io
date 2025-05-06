@@ -9,7 +9,7 @@
     },
     {
         "name": "Fusion 360",
-        "icon": "./assets/images/skills/fusion.jpg"
+        "icon": "./assets/images/skills/fusion.png"
     },
     {
         "name": "Siemens NX",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Matlab",
-        "icon": "./assets/images/skills/matlab.jpg"
+        "icon": "./assets/images/skills/matlab.png"
     },
     {
         "name": "Visual Studio Code",
