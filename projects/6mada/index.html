@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project 1 - Portfolio</title>
-  <link rel="stylesheet" href="../../style.css" /> <!-- Reuse global style -->
-  <style>
-    body {
-      background-color: #0d0b32;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      padding: 2rem;
-    }
-    .project-container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .project-image {
-      width: 100%;
-      margin: 1rem 0;
-      border-radius: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vianney grenez, portfolio, mechanical engineer, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Vianney's Portfolio. Mechanical Engineer and Innovative maker" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Vianney Grenez</title>
 </head>
-<body>
-  <div class="project-container">
-    <h1>Instagram Clone (MERN)</h1>
-    <p>This project replicates core features of Instagram using the MERN stack. It includes authentication, posts, likes, and comments, with MongoDB for data persistence.</p>
-    <p>It demonstrates full-stack development with React frontend and Express/Node backend. Hosted on Heroku.</p>
-    <img src="./images/screenshot1.png" alt="Screenshot 1" class="project-image" />
-    <img src="./images/screenshot2.jpg" alt="Screenshot 2" class="project-image" />
-    <p><a href="../../index.html" style="color: yellow;">← Back to main site</a></p>
+<body oncontextmenu="return false">
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"> The <span>TOSSO</span> - Green energy for EVs project </h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./images/screenshot1.png" alt="">
+    </div>
+    <div class="content">
+        <!-- <h3>I'm Vianney</h3>
+        <span class="tag">Mechanical engineer, solution finder and innovative maker.</span> -->
+        
+        <p>I joined Rossini Energy for a very short term contract. The start up was 3 years old and was specialized in designing, installing and operating Charging stations for EVs. The CEO wanted to diversify his protfolio and get a bigger product to sell, to expand the brand and get higher sales.</p>
+    <p>After exploring different potential products, we agreed on trying to build a solar carport to charge cars with Solar energy. The product had to be design, made of wood, and modular.My mission was clear: I had 4 months to design a new product and build a functional prototype in the parking lot. I had a budget of 20.000 EUR</p>
+    <p>I immediately started sketching lines on my notbook, went through some equations to estimate a decent solar surface, an annual energy production, an avergae time of charge, a rough estimation of the money benefit and ROI for a customer... After a week, I had a CAD model on Fusion 360, I was running structural simulations to resist wind and hold the pannel and already started to get in contact with potential suppliers. </p>
+    <p>The project kept going at a fast pace, I learned how to draw power electrics circuits, how to negociate prices with all of the suppliers, how to design a structure to respect the EU norms, how to select the right waterproofing solution, how to create en embedded charging station, how to remotely measure AC current with a Raspberry Pi and I enjoyed getting to know the team. After 4 month, everything was assemble and a 4-car solar carport was functional on the parking</p>
+    <p>It could charge only from the sun's energy, or from the grid and the sun for a fast charge. I had access to a real-time tracking of the current and the company's car could charge under the solar roof.    </p>
+    <p>I had the huge chance to be trusted, to be mentored and supported by the CEO and the team, to find passionate people willing to share their knowledge and to work on a project that had a positive impact on the environment. That was a dream mission and that made me realize that with the proper management and a good reason to work, I would always find ways to make it happen and well.</p>
+
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./images/screenshot2.jpg" alt="">
   </div>
+    </div>
+    <p><a href="../../index.html" style="color: rgb(34, 34, 26);">← Back to main site</a></p>
+</section>
+<!-- about section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
