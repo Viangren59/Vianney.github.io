@@ -37,15 +37,15 @@
     },
     {
         "name": "V carve",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "icon": "./assets/images/skills/vcarve.jpg"
     },
     {
         "name": "Procreate",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "icon": "./assets/images/skills/procreate.png"
     },
     {
         "name": "ANSYS",
-        "icon": "./assets/images/skills/Ansys.jpg"
+        "icon": "./assets/images/skills/Ansys.png"
     },
     {
         "name": "Python",
