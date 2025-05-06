@@ -386,6 +386,14 @@ header .navbar ul li a:hover {
   font-weight: 600;
   margin-top: 1rem;
 }
+.about .row .content .tage {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 800;
+  text-transform: none;
+  font-weight: bold;
+}
 .about .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
