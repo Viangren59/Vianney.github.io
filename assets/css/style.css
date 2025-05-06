@@ -237,6 +237,24 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
+.home .content li {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.custom-list {
+  font-family: inherit; /* Use the same font as the rest of the text */
+  font-size: 1rem;       /* Adjust to match your paragraph font size */
+  font-weight: 400;      /* Same weight as paragraph text */
+  line-height: 1.6;      /* Match paragraph line spacing */
+  padding-left: 1.5rem;  /* Proper indentation */
+  list-style-type: disc; /* Bullet style */
+}
+
+.custom-list li {
+  margin-bottom: 0.4em; /* Space between items */
+}
 .home .content p span {
   font-size: 2.5rem;
   color: rgb(148, 8, 8);
