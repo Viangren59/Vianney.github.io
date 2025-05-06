@@ -21,7 +21,7 @@
     },
     {
         "name": "KiCAD",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
+        "icon": "./assets/images/skills/kicad.png"
     },
     {
         "name": "Matlab",
@@ -57,11 +57,11 @@
     },
     {
         "name": "Cura",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "icon": "./assets/images/skills/cura.png"
     },
     {
         "name": "Prusa slicer",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        "icon": "./assets/images/skills/prusa.png"
     },
     {
         "name": "GitHub",
@@ -69,6 +69,6 @@
     },
     {
         "name": "MS Project",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        "icon": "./assets/images/skills/mspro.jpg"
     } 
 ]
