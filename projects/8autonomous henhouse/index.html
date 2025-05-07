@@ -1,36 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project 1 - Portfolio</title>
-  <link rel="stylesheet" href="../../style.css" /> <!-- Reuse global style -->
-  <style>
-    body {
-      background-color: #0d0b32;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      padding: 2rem;
-    }
-    .project-container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .project-image {
-      width: 100%;
-      margin: 1rem 0;
-      border-radius: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vianney grenez, portfolio, mechanical engineer, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Vianney's Portfolio. Mechanical Engineer and Innovative maker" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Vianney Grenez</title>
 </head>
-<body>
-  <div class="project-container">
-    <h1>Instagram Clone (MERN)</h1>
-    <p>This project replicates core features of Instagram using the MERN stack. It includes authentication, posts, likes, and comments, with MongoDB for data persistence.</p>
-    <p>It demonstrates full-stack development with React frontend and Express/Node backend. Hosted on Heroku.</p>
-    <img src="./images/screenshot1.png" alt="Screenshot 1" class="project-image" />
-    <img src="./images/screenshot2.jpg" alt="Screenshot 2" class="project-image" />
-    <p><a href="../../index.html" style="color: yellow;">← Back to main site</a></p>
+<body oncontextmenu="return false">
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"> Building an <span>autonomous </span> henhouse </h2>
+    
+    <div class="row">
+
+        <div class="image">
+            <img draggable="false" class="tilt" src="./images/poulailler.jpg" alt="" style="width: 400px; height: auto;">
+            <img draggable="false" class="tilt" src="./images/elec.png" alt="" style="width: 400px; height: auto;">
+            
+        </div>
+
+        <div class="content">
+            <!-- <h3>I'm Vianney</h3>
+            <span class="tag">Mechanical engineer, solution finder and innovative maker.</span> -->
+        
+            <p>I grew up in the countryside of northern France, where winters can be harsh and cold. We were lucky to have a large garden, and one day I asked my parents if we could get chickens, so we could have fresh eggs every morning. They agreed—on the condition that I would take full responsibility for them.</p>
+            <p>So I set out to build a henhouse in the backyard, trying to be smart and practical about it. I elevated the structure to keep rats out, integrated a gutter system to collect rainwater for the hens, and designed a gravity-fed grain feeder. The grain storage was made from a PVC tube and could feed two hens for about two weeks. The henhouse floor was made from fencing material for easy cleaning, and the chickens had a wooden box to sleep and lay eggs in. I mounted the roof of that box on a hinge for easy egg collection and did the same with the front door to make cleaning easier. I also built a fence around the structure to keep the chickens safe and to avoid having to chase them around every day. Everything worked well.</p>
+            <p>However, walking all the way to the back of the yard every evening to close the door and check the water level quickly became unpleasant, especially once the sunny days were gone. That’s when I decided to automate the entire henhouse.</p>
+            <p>The following summer, I dug an underground trench to connect the henhouse to the electrical grid and began designing an electronics box to open and close the door daily and ensure a steady water supply during the day. The entire Arduino-based system relied on a single photoresistor to track daylight. I had observed that the hens consistently returned to the henhouse at sunset, without exception—so one light sensor was enough.</p>
+            <p>The front door slid vertically, suspended by a rope and powered by a small DC motor with a gearbox. I used a submersible water pump housed in an underground tank to avoid freezing issues. It filled a container during the day, and at night, the container drained through a small tube back into the tank. This ensured that pests couldn’t access the water once the door was shut.</p>
+            <p>This project taught me a lot about learning by doing, creative problem-solving, and continuous improvement. I learned the importance of using connectors instead of soldering, designing for modularity and IP ratings, ensuring code reliability, implementing safety loops, and even doing a basic DFMEA.It also took a lot of training and clear guidlines for my parents when maintenance was necessary and I was away from home. I’d say this was my first real experience in project management.</p>
+        
+        
+        </div>
+    
+        <div class="image">
+            <img draggable="false" class="tilt" src="./images/door.png" alt="" style="width: 400px; height: auto;">
+            <img draggable="false" class="tilt" src="./images/elec2.png" alt="" style="width: 400px; height: auto;">
+            <img draggable="false" class="tilt" src="./images/end user.jpeg" alt="end user" style="width: 1000px; height: auto; display: block; margin: 0 auto;">
+            <figcaption style="margin-top: 0.5rem; font-size: 1.5rem; color: #444;">The cute end-user who never understood what I was up to at night checking a sensor</figcaption>
+        </div>
+
+    </div>
+    
+
+</section>
+
+<!-- about section ends -->
+
+<div>
+    <p><a href="../../index.html" style="margin-top: 5rem; font-size: 3rem; color: rgb(34, 34, 26);">← Back to main site</a></p>
   </div>
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
