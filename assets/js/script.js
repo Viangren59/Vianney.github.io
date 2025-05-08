@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Vianney Grenez";
-            $("#favicon").attr("href", "assets/images/hero.png");
+            $("#favicon").attr("href", "assets/images/heros.png");
         }
         else {
             document.title = "Come Back To Portfolio";
