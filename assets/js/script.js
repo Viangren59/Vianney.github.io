@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Vianney Grenez";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/hero.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Mechanical Engineering","Prototyping","Patent writing","Electrical design","Project management","Challenge", "Team work", "Product development","Physics", "Business creation","Product design"],
+    strings: ["Mechanical Engineering","Prototyping","Patent writing","Electrical design","Project management", "Team work", "Product development","Physics", "Business creation","Product design"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
